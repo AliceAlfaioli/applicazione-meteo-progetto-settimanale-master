@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-image: url("https://s1.1zoom.me/big0/406/Sunrises_and_sunsets_Sea_451170.jpg");
+  background-image: url("https://images6.alphacoders.com/122/1220288.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 /*-----------------sfondo info-------- */
 .card-body::before {
   content: "";
-  background-image: url("https://s1.1zoom.me/big0/406/Sunrises_and_sunsets_Sea_451170.jpg");
+  background-image: url("https://images6.alphacoders.com/122/1220288.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -45,5 +45,5 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 .card {
-  background-color: rgba(180, 180, 180, 0.226) !important;
+  background-color: rgba(184, 74, 184, 0.226) !important;
 }
