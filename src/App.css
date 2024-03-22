@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("https://s1.1zoom.me/big0/406/Sunrises_and_sunsets_Sea_451170.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.card-bg {
+  z-index: 0;
+}
+
+/*-----------------sfondo info-------- */
+.card-body::before {
+  content: "";
+  background-image: url("https://s1.1zoom.me/big0/406/Sunrises_and_sunsets_Sea_451170.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* --------------- card inside--- ------------*/
+.card-body p {
+  color: rgb(230, 127, 42);
+  z-index: 1;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.card {
+  background-color: rgba(180, 180, 180, 0.226) !important;
+}
